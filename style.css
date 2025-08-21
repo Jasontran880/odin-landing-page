@@ -9,6 +9,7 @@ body {
 
     /* height of the body will never be less than 100% of the viwport height */
     min-height: 100vh;
+    height: 2550px;
 
     /* make entire body a flex box */
     display: flex;
@@ -17,21 +18,29 @@ body {
 }
 
 .section-container{
+    /* allowing dynamic resizing */
+    display: flex;
+    flex: 1; 
+    flex-direction: column;
 
 }
 
-#section1{
+.section{
+    display: flex;
+}
 
+.section1{
+    flex: 5;
 }
-#section2{
-    
+.section2{
+    flex: 4;
 }
-#section3{
-    
+.section3{
+    flex: 3;
 }
-#section4{
-    
+.section4{
+    flex: 2;
 }
-#section5{
-    
+.section5{
+    flex: 1;
 }
