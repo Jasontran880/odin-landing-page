@@ -6,4 +6,32 @@ body {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+
+    /* height of the body will never be less than 100% of the viwport height */
+    min-height: 100vh;
+
+    /* make entire body a flex box */
+    display: flex;
+    /* ensuring that entire body will be able to shrink and grow evenly */
+    flex: 1;
+}
+
+.section-container{
+
+}
+
+#section1{
+
+}
+#section2{
+    
+}
+#section3{
+    
+}
+#section4{
+    
+}
+#section5{
+    
 }
